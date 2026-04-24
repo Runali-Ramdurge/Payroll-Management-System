@@ -1,65 +1,58 @@
-Payroll Management System (C++)
+💼 Payroll Management System (C++)
+📌 Overview
 
-Project Overview
+This is a console-based Payroll Management System developed in C++. It helps manage employee records, calculate salaries, and generate salary slips using Object-Oriented Programming (OOP) and file handling.
 
-The Payroll Management System is a console-based application developed using C++ to manage employee records and automate salary calculations.
+🚀 Features
 
-It allows administrators to:
- - Add, modify, and delete employee records
- - View employee details
- - Generate salary slips
- - Store data using file handling
+➕ Add New Employee
+📋 Display Employee Details
+📑 List All Employees
+💰 Generate Salary Slip
+✏️ Modify Employee Record
+❌ Delete Employee Record
+💾 Store & Retrieve Data from File
 
-The system follows Object-Oriented Programming (OOP) principles and ensures persistent storage using files.
+🛠️ Tech Stack
 
+Language: C++
 
- Objectives
+Concepts Used:
 
- - Maintain employee information efficiently
- - Automate payroll calculations
- - Reduce manual errors in salary processing
- - Provide a structured and user-friendly system
+Classes & Objects
+File Handling (fstream)
+OOP Concepts
+Conditional Statements
+Functions
+📂 File Storage
 
+⚙️ How to Run
+🔹 Using Dev C++
+Open Dev C++
+Create new file
+Paste code
+Save as main.cpp
+Press F11 (Run)
+🔹 Using Terminal
+g++ main.cpp -o payroll
+./payroll
+🧪 Sample Menu
+1. New Employee  
+2. Display Employee  
+3. List of Employees  
+4. Salary Slip  
+5. Edit  
+0. Exit  
+📈 Future Improvements
 
+🧾 Advanced Salary Breakdown
+🔐 Login Authentication System
+🗃️ Database Integration (MySQL)
+🖥️ GUI Version (Qt / JavaFX)
+📊 Reports & Analytics
 
-Technologies Used
-
-Programming- C++                                       
-Concepts Used- OOP (Classes, Encapsulation, Inheritance)
-File Handling- ifstream, ofstream                        
-Platform- Console Application                       
-
-
-System Modules
-
- 1. Employee Management
- - Add new employee details
- - Modify existing records
- - Delete employee records
-
- 2. Record Display
- - Display individual employee details
- - View complete employee list
-
- 3. Payroll Processing
- Calculate salary based on:
-   - Basic salary
-   - Allowances (HRA, DA)
-   - Deductions (PF, Loan)
-
- 4. Salary Slip Generation
- - Generates salary slip for each employee
- - Displays:
-     Basic salary
-     Allowances
-     Deductions
-     Net salary
-
-
- Features
-
- - Menu-driven user interface
- - Persistent data storage using files
- - Modular and structured design
- - Easy to use and understand
- - Supports CRUD operations (Create, Read, Update, Delete)
+👩‍💻 Author
+Runali Ramdurge 
+Samiksha Danole
+Ankita Basarwadkar
+Vijaya Pawar
